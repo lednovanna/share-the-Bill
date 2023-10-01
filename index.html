@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+<h1> Split the cost of the child!</h1>
+<form>
+    <p>School payment💰</p>
+    <span>󠀤󠀤＄</span>
+    <input type="text" id="school" placeholder="School payment">
+    <p>😎 Number of people</p>
+    <input type="text" id="people" placeholder="Amount of people">
+    <p>❤️Health insurance❤️</p>
+    <input type="text" id="insurance" placeholder="Health insurance"></input>
+    <p>😎 Pocket Money</p>
+    
+    
+    <button id="addPocketMoney">Add pocket money</button>
+    <select id="pocket">
+        <option value="0,30">30%</option>
+        <option value="0,20">20%</option>
+        <option value="0,10">10%</option>
+        <option value="0,00">No money!</option>
+    </select>
+    <button id="btn">Calculate</button>
+</form>
+<div id="showTotalAmountToPay">
+    <div id="sumSplit">
+        <p>Sum</p>
+        <span>＄</span>
+        <span id="dividedSum"></span>
+        <span>per person</span>
+    </div>
+    <div id="insuranceSplit">
+        <p> Insurance</p> 
+        <span id="dividedInsurance"></span>
+        <span>per person</span>
+    </div>
+    <div id="pocketMoneySplit">
+        <p>Pocket Money</p>
+        <span>＄</span>
+        <span id="dividedPocketMoney"></span>
+        <span>per person</span>
+    </div>
+    <div id="sumAndPocketMoney">
+        <p>Total</p>
+        <span>＄</span>
+        <span id="dividedSumAndPocketMoney"></span>
+        <span>per person</span>
+    </div>
+</div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
