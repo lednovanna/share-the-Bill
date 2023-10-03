@@ -1,5 +1,5 @@
 # Share the bill
-![file](project1.jpg)
+<img src="project1.jpg" width=200 height=200>
 <br>
 Writing the project I used ___HTML/CSS and JavaScript.___
 ___
